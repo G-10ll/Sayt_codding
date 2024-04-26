@@ -1,0 +1,67 @@
+
+      /* ССылки и внешний вид*/
+      body{
+         background-color:#F3BE16;
+      }
+       
+
+      .a{
+      display: flex;
+      align-items:center;
+      justify-content:space-around;
+      font-family: sans-serif;
+      padding:20px;
+      margin:20px;
+      }
+      
+      /*Оформление кнопок*/
+      a{
+         color: #ffffff;
+         background-color: black;
+         text-decoration: none;
+         padding: 15px;
+         border: 3px solid #ffffff;
+         border-radius: 30px
+      } 
+
+      /*Оформление текста на главной странице*/
+      .text__glavnaya{
+         display: flex;
+         background-color: black;  
+         color: #ffffff;
+         margin-right: 60px;
+         margin-left: 60px;
+         border: solid white;
+         padding: 20px;
+         text-align: center;
+         
+      }
+
+      /*Оформление картинок спортзала*/
+      .photo{ 
+         text-align: center;
+         word-spacing: 40px;
+         margin-top: 50px;
+         margin-bottom: 250px;
+         margin-left: 250px;
+         margin-right: 250px;
+      }
+      img {
+         margin: 10px;
+       }
+
+
+/*Тень анимация*/
+.ten{
+   
+  text-align: center;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+   transition: box-shadow 0.3s ease-in-out;
+   
+ }
+ 
+ .ten:hover {
+   box-shadow: -4px 0px 40px rgba(0, 0, 0, 1);
+ }
+
+      
