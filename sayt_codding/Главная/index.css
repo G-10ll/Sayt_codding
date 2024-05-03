@@ -4,36 +4,47 @@
          background-color:#F3BE16;
       }
        
-
+      /*Оформление кнопок*/
       .a{
-      display: flex;
-      align-items:center;
-      justify-content:space-around;
+      display: inline-flex;
+     
+      
       font-family: sans-serif;
-      padding:20px;
-      margin:20px;
+      padding-bottom: 15px;
+      
+      width: 1270px;
+      
+     
       }
       
       /*Оформление кнопок*/
       a{
          color: #ffffff;
-         background-color: black;
+         background-color: #171717;
          text-decoration: none;
-         padding: 15px;
-         border: 3px solid #ffffff;
-         border-radius: 30px
+         padding: 15px 15px 15px 15px;
+         border: 2px solid #ffffff;
+         border-radius: 15px;
+         margin-left: 10px;
+         margin-right: 10px;
+         
+
+         
       } 
 
       /*Оформление текста на главной странице*/
       .text__glavnaya{
          display: flex;
-         background-color: black;  
+         background-color: #171717;  
          color: #ffffff;
          margin-right: 60px;
          margin-left: 60px;
          border: solid white;
          padding: 20px;
          text-align: center;
+         margin-left: 300px;
+         margin-right: 300px;
+         margin-top: 10px;
          
       }
 
@@ -49,6 +60,7 @@
       img {
          margin: 10px;
        }
+       
 
 
 /*Тень анимация*/
@@ -57,11 +69,59 @@
   text-align: center;
    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
    transition: box-shadow 0.3s ease-in-out;
-   
+   margin-left: 500px;
+   margin-right: 500px;
+   text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: black;
+      margin-top: 100px;
+       font-size: 40px;
  }
  
  .ten:hover {
    box-shadow: -4px 0px 40px rgba(0, 0, 0, 1);
  }
+
+/*3 блока сайта - хедер,контент и футер*/
+
+
+ /*Оформление шапки сайта*/
+ .header{
+   background-color: #171717;
+   text-align: center;
+   padding-left: 200px;
+   
+   
+   
+
+  
+ }
+      
+
+      .content{
+
+      }
+
+
+
+      .footer{
+         margin-top: auto;
+         margin-top: 70px;
+         padding: 20px;
+         background-color: #171717;
+         display: flex;
+         align-content: flex-start;
+      }
+
+      /*Инфа сайта в футере*/
+      .row{
+         display: block;
+         font-size: 14px;
+         color: #ffffff;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         padding-left: 110px;
+         padding-top: 40px;
+         padding-right:110px;
+      }
 
       
