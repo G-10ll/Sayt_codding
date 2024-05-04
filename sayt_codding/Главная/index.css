@@ -3,6 +3,10 @@
       body{
          background-color:#F3BE16;
          margin: 0px;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         min-height: 100vh;
       }
        
       /*Оформление кнопок*/
@@ -72,6 +76,11 @@
          margin-bottom: 250px;
        
       }
+
+      .photo__club_cards{
+         
+      }
+
       img {
          margin: 10px;
       }
@@ -128,12 +137,12 @@
 
 
       .footer{
-         margin-top: auto;
-         margin-top: 70px;
          padding: 20px;
          background-color: #171717;
          display: flex;
          align-content: flex-start;
+         width: 100%;
+         z-index: 3;
       }
 
       /*Инфа сайта в футере*/
@@ -145,6 +154,7 @@
          padding-left: 110px;
          padding-top: 40px;
          padding-right:110px;
+         
       }
 
       
