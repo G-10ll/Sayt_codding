@@ -18,22 +18,21 @@
 <body>
    
 
-<!--Хедер сай та-->
-   <div class="header">
+<!--Хедер сайта-->
+   <div class="header container">
          <!--Бургер кнопка-->
-         <div class="menu">
-            <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
-            <label  for="burger-checkbox" class="burger"></label>
-            <ul class="menu-list">
-               <li><a href="#" class="menu-item">Главная</a><li>
-               <li><a href="#" class="menu-item">О нас</a><li>
-               <li><a href="#" class="menu-item">Команда</a><li>
-               <li><a href="#" class="menu-item">Контакты</a><li>
-            </ul>
-      </div>
-
-      <!--Гиперссылки-->
-      <div class="a" >
+         <!--Гиперссылки-->
+      <div class="menu">
+         <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+         <label  for="burger-checkbox" class="burger"></label>
+         <ul class="menu-list">
+            <li><a href="#" class="menu-item">Главная</a><li>
+            <li><a href="#" class="menu-item">О нас</a><li>
+            <li><a href="#" class="menu-item">Команда</a><li>
+            <li><a href="#" class="menu-item">Контакты</a><li>
+         </ul>
+   </div>
+      <div class=" header_links_container" >
          <a href="Фит-зал.html">Главная</a>
          <a href="Тренера.html">Тренера</a>
          <a href="Информация.html">Информация</a>
@@ -45,7 +44,7 @@
    </div>
 
 <!--Контент сайта-->
-<div class="content">
+<div class="content container">
 <!--Текст о сайте-->
    <div class="text__glavnaya"> 
       <p >Креативное название клуба BULLDOZER содержит глубокий смысл: BULL - "бык" (перевод с англ.), DOOZER - "отвал" (перевод с англ.) - наиболее важная часть в конструкции строительной машины бульдозера.
@@ -58,9 +57,11 @@
    </div>
 
    <!--Слайдер с картинками спортзала-->
-   <div class="ten" style="text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; color: black; margin-top: 100px; font-size: 40px;">
+   <div h3>
+   <div class="ten text__zagolovok">
       Тренерский состав
      </div>
+   </div>
    <div class="wrapper">
       <input type="radio" name="point" id="slide1" checked>
       <input type="radio" name="point" id="slide2">
@@ -84,7 +85,7 @@
    </div>
 
 <!--Фото о спортзале-->
-<div class="ten" style="text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; color: black; margin-top: 200px; font-size: 40px;">
+<div class="ten text__zagolovok ">
  Фото Интерьер 
 </div>
 <div class="photo">
@@ -101,7 +102,7 @@
 </div>
 </div>
 
-<div class="footer">
+<div class="footer container">
 
    <div class="row">
       <h1>Контакты</h1>
