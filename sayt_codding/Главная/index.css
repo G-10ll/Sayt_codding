@@ -26,7 +26,8 @@
 
       
       /*Оформление кнопок*/
-      a{
+      
+      .header__menu a{
          color: #ffffff;
          background-color: #171717;
          text-decoration: none;
@@ -35,11 +36,7 @@
          border-radius: 15px;
          margin-left: 10px;
          margin-right: 10px;
-         
-
-         
-      } 
-
+      }
       /*Оформление текста на главной странице*/
       .text__glavnaya{
          display: flex;
@@ -59,6 +56,7 @@
          color: black;
          margin-top: 100px;
          font-size: 40px;
+         margin-bottom: 30px;
       }
 
       .text__information{
@@ -77,8 +75,31 @@
        
       }
 
-      .photo__club_cards{
+      .club__cards{
+         box-sizing: border-box;
+           display: flex;
+         padding: 0px 0px 0px 40px;
          
+      }
+
+      .photo__club__cards{
+         padding: 0px 0px 0px 40px;
+      }
+
+      /*Оформление кнопок на клубных картах*/
+      .button__club__cards a{
+         padding: 15px 30px;
+         border: 1px solid #e5e5e5;
+         width: 100px;
+         background-color: #171717;
+         color: #e5e5e5;
+         text-decoration: none;
+      }
+
+      .text__club__cards{
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         color: black;
+
       }
 
       img {
@@ -104,6 +125,25 @@
    box-shadow: -4px 0px 40px rgba(0, 0, 0, 1);
  }
 
+
+/*Класс со статьями на странице новости*/
+ .article{
+   margin: 10px;
+   padding: 5px;
+   background-color: rgb(255, 255, 255);
+   display: flex;
+
+   /*Оформление кнопки в статье, на странице новости*/
+ }
+.button__article a{
+   padding: 15px 30px;
+   border: 1px solid #e5e5e5;
+   width: 100px;
+   background-color: #171717;
+   color: #e5e5e5;
+   text-decoration: none;
+   
+}
 /*3 блока сайта - хедер,контент и футер*/
 
 
@@ -131,7 +171,8 @@
       
 
       .content{
-
+         margin-top: 100px;
+         margin-bottom: 100px;
       }
 
 
