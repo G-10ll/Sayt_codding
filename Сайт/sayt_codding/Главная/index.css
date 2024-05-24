@@ -1,0 +1,340 @@
+
+      /* ССылки и внешний вид*/
+      body{
+         background-color:#F3BE16;
+         margin: 0px;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         min-height: 100vh;
+      }
+       
+      /*Оформление кнопок*/
+      .header_links_container{
+      font-family: sans-serif;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      
+      
+      
+     
+      
+     
+      }
+
+
+      
+      /*Оформление кнопок*/
+      
+      .header__menu a{
+         color: #ffffff;
+         background-color: #171717;
+         text-decoration: none;
+         padding: 15px 15px 15px 15px;
+         border: 2px solid #ffffff;
+         border-radius: 15px;
+         margin-left: 10px;
+         margin-right: 10px;
+      }
+      /*Оформление текста на главной странице*/
+      .text__glavnaya{
+         display: flex;
+         background-color: #171717;  
+         color: #ffffff;
+         border: solid white;
+         padding: 20px;
+         text-align: center;
+         margin-top: 10px;
+         padding: 10px;
+         width: fit-content;
+      }
+
+      .text__zagolovok{
+         text-align: center;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         color: black;
+         margin-top: 100px;
+         font-size: 40px;
+         margin-bottom: 30px;
+      }
+
+      .text__information{
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         color: black;
+         margin-top: 50px;
+         font-size: 14px
+      }
+
+      /*Оформление картинок спортзала*/
+      .photo{ 
+         text-align: center;
+         word-spacing: 40px;
+         margin-top: 50px;
+         margin-bottom: 250px;
+       
+      }
+
+      .club__cards{
+         box-sizing: border-box;
+           display: flex;
+         padding: 0px 0px 0px 40px;
+         
+      }
+
+      .photo__club__cards{
+         padding: 0px 0px 0px 40px;
+      }
+
+      /*Оформление кнопок на клубных картах*/
+      .button__club__cards a{
+         padding: 15px 30px;
+         border: 1px solid #e5e5e5;
+         width: 100px;
+         background-color: #171717;
+         color: #e5e5e5;
+         text-decoration: none;
+      }
+
+      .text__club__cards{
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         color: black;
+
+      }
+
+      img {
+         margin: 10px;
+      }
+       
+
+
+/*Тень анимация*/
+.ten{
+   
+  text-align: center;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+   transition: box-shadow 0.3s ease-in-out;
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: black;
+   margin-top: 100px;
+   font-size: 40px;
+ }
+ 
+ .ten:hover {
+   box-shadow: -4px 0px 40px rgba(0, 0, 0, 1);
+ }
+
+
+/*Класс со статьями на странице новости*/
+ .article{
+   margin: 10px;
+   padding: 5px;
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+   /*Оформление кнопки в статье, на странице новости*/
+ }
+.button__article a{
+   padding: 15px 30px;
+   border: 1px solid #e5e5e5;
+   width: 100px;
+   background-color: #171717;
+   color: #e5e5e5;
+   text-decoration: none;
+   
+}
+
+/*Инфа на странице контакты*/
+.information__contacts{
+   width: 500px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding: 5px;
+   color: white;
+   background-color: #171717;
+   border-radius: 10px 20px 20px 100px;
+}
+
+/*Контент на странице контакты*/
+.content__contacts{
+   display: flex;
+}
+
+/*Регистрация на странице контакты*/
+.reg__contacts{
+margin-left: 10px;
+}
+/*3 блока сайта - хедер,контент и футер*/
+
+
+ /*Оформление шапки сайта*/
+ .header{
+   background-color: #171717;
+   display: flex;
+   padding: 0px;
+   position: fixed;
+   top: 0;
+   z-index: 999;
+   width: 100%;
+   
+   
+   
+
+  
+ }
+
+ .container{
+   
+   padding: 0px 10%;
+
+ }
+      
+
+      .content{
+         margin-top: 100px;
+         margin-bottom: 100px;
+      }
+
+
+
+      .footer{
+         padding: 20px;
+         background-color: #171717;
+         display: flex;
+         align-content: flex-start;
+         width: 100%;
+         z-index: 3;
+      }
+
+      /*Инфа сайта в футере*/
+      .row{
+         display: block;
+         font-size: 14px;
+         color: #ffffff;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         padding-left: 110px;
+         padding-top: 40px;
+         padding-right:110px;
+         
+      }
+
+
+
+      /* Puts the form in the center both horizontally and vertically. Sets its height to 100% of the viewport's height */
+      /*Теперь мы немного оформим форму*/
+      .form {
+         background-color: white;
+         width: 400px;
+         border-radius: 8px;
+         padding: 20px 40px;
+         box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+       }
+       
+       .title {
+         font-size: 50px;
+         margin-bottom: 50px;
+       }
+
+
+       /*Далее мы оформим форму, div которая содержит входные данные формы и метки форм.*/
+       .inputContainer {
+         position: relative;
+         height: 45px;
+         width: 90%;
+         margin-bottom: 17px;
+       }
+
+
+
+       /*Теперь нам нужно оформить наши входные данные.*/
+       /* Style the inputs */
+.input {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   height: 100%;
+   width: 100%;
+   border: 1px solid #DADCE0;
+   border-radius: 7px;
+   font-size: 16px;
+   padding: 0 20px;
+   outline: none;
+   background: none;
+   z-index: 1;
+ }
+ 
+ /* Hide the placeholder texts (a) */
+ 
+ ::placeholder {
+   color: transparent;
+ }
+
+
+ /*Далее мы оформляем текстовые метки*/
+ /* Styling text labels */
+.label {
+   position: absolute;
+   top: 15px;
+   left: 15px;
+   padding: 0 4px;
+   background-color: white;
+   color: #DADCE0;
+   font-size: 16px;
+   transition: 0.5s;
+   z-index: 0;
+ }
+
+
+ /*Теперь мы сосредоточимся на кнопках.*/
+ .submitBtn {
+   display: block;
+   margin-left: auto;
+   padding: 15px 30px;
+   border: none;
+   background-color: purple;
+   color: white;
+   border-radius: 6px;
+   cursor: pointer;
+   font-size: 16px;
+   margin-top: 30px;
+ }
+ 
+ .submitBtn:hover {
+   background-color: #9867C5;
+   transform: translateY(-2px);
+ }
+
+
+
+
+ .input:focus + .label {
+   top: -7px;
+   left: 3px;
+   z-index: 10;
+   font-size: 14px;
+   font-weight: 600;
+   color: purple;
+ }
+
+
+ /*Нам также нужно добавить фиолетовую рамку вокруг ввода, когда он получит фокус.*/
+ .input:focus {
+   border: 2px solid purple;
+ }
+
+
+ /*В следующем CSS мы укажем, что при вводе значения во входные данные и изменении фокуса мы хотим, чтобы метка оставалась плавающей.*/
+ .input:not(:placeholder-shown)+ .label {
+   top: -7px;
+   left: 3px;
+   z-index: 10;
+   font-size: 14px;
+   font-weight: 600;
+ }
+
+
+ .contacts__ssilka a{
+   color: #ffe203;
+   text-decoration: none;
+}
